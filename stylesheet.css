@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+}
+.container{
+    align-content: center;   
+    max-width: 100%;
+    margin: 0;
+}
+.promotion{
+text-align: center;
+color: antiquewhite;
+background: black;
+}
+
+.logo{
+    flex: 2;
+    align-content: left;
+}
+.logo img{
+    width:250px;
+}
+.links ul li{
+    display: inline-block;
+    
+}
+
+li{
+    list-style: none;
+    padding: 2px;
+}
+
+.banner{
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    background-color: rgb(49, 49, 138);
+}
+
+.BottomFooter{
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    background-color: rgb(49, 49, 138);
+}
+.links-2 ul li{
+    
+    display: flex ;
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+.logo-2
+{   flex: 1;
+    
+    align-content: left;
+    
+
+}
+.logo-2 img{
+    width: 250px;
+
+}
+li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.FeaturedProducts{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+}
+.products{
+    display: flex;
+    flex-basis: 25%;
+    max-width: 100%;
+}
+.Music{
+    display: flex;
+    max-width: 100%;
+}
+.cover{
+    padding: 20px;
+    flex-basis: 25%;
+}
+.cover img{
+    border-radius: 10px;
+}
+.Slogan{
+    text-align: center;
+    padding: 20px;
+}
+.Slogan p{
+    padding: 10px;
+}
+.button button{
+    margin: 10px;
+    padding: 15px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.footer{
+    display:flex;
+    max-width: 100%;
+}
+.ImageSlide{
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.Slide{
+ flex: 1;
+ max-width: 100%;
+ padding: 0;
+ max-height: 600px ;
+
+}
+
+.right {
+    flex: 2;
+    margin: 0;
+    color: aliceblue;
+    background-color: black;
+    display: block;
+    padding:20px ;
+
+}
+.left{
+    flex: 2;
+    margin: 0;
+    color: aliceblue;
+    background-color: black;
+    display: block;
+    padding:20px ;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+    
